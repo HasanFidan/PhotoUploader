@@ -1,0 +1,35 @@
+﻿<Window x:Class="PhotoUploader.Views.UploaderHelpView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:p="clr-namespace:PhotoUploader.Properties" 
+        Title="{x:Static p:Resources.main_lbl_help}" Height="450" Width="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="20"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+
+        </Grid.RowDefinitions>
+
+        <ScrollViewer VerticalScrollBarVisibility="Visible" Name="StackPnlDynamicSurvey" Background="WhiteSmoke" 
+                          HorizontalAlignment="Stretch" Grid.Row="1"  Grid.Column="1"
+                                        VerticalAlignment="Top"  >
+
+            <TextBlock Foreground="Gray" Grid.Column="1" TextWrapping="Wrap"  LineStackingStrategy="BlockLineHeight"  FontSize="14" FontWeight="Bold" HorizontalAlignment="Left"
+              
+               VerticalAlignment="Top" Text="{x:Static p:Resources.main_text_help}">
+          
+    
+
+
+            </TextBlock>
+
+        </ScrollViewer>
+
+    </Grid>
+</Window>

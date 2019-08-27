@@ -1,0 +1,28 @@
+2019-08-27 00:31:49 [1] DEBUG AppLog - UnPlugged false
+2019-08-27 00:31:49 [1] DEBUG AppLog - Error : System.NullReferenceException: Object reference not set to an instance of an object.
+   at ScoutBoxUploader.Service.PWDManager.Dispose() in D:\SpringgProjects\ScoutBoxUploader\ScoutBoxUploader\ScoutBoxUploader\Service\PWDManager\PWDManager.cs:line 60
+   at ScoutBoxUploader.ViewModel.UploaderViewModel..ctor() in D:\SpringgProjects\ScoutBoxUploader\ScoutBoxUploader\ScoutBoxUploader\ViewModel\UploaderViewModel.cs:line 134
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ScoutBoxUploader.Service.PWDManager.Dispose() in D:\SpringgProjects\ScoutBoxUploader\ScoutBoxUploader\ScoutBoxUploader\Service\PWDManager\PWDManager.cs:line 60
+   at ScoutBoxUploader.ViewModel.UploaderViewModel..ctor() in D:\SpringgProjects\ScoutBoxUploader\ScoutBoxUploader\ScoutBoxUploader\ViewModel\UploaderViewModel.cs:line 134
+2019-08-27 10:33:26 [1] DEBUG AppLog - UnPlugged false
+2019-08-27 10:33:26 [1] DEBUG AppLog - Error : System.NullReferenceException: Object reference not set to an instance of an object.
+   at PhotoUploader.Service.PWDManager.Dispose() in D:\SpringgProjects\ScoutBoxUploader\ScoutBoxUploader\ScoutBoxUploader\Service\PWDManager\PWDManager.cs:line 60
+   at PhotoUploader.ViewModel.UploaderViewModel..ctor() in D:\SpringgProjects\ScoutBoxUploader\ScoutBoxUploader\ScoutBoxUploader\ViewModel\UploaderViewModel.cs:line 134
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PhotoUploader.Service.PWDManager.Dispose() in D:\SpringgProjects\ScoutBoxUploader\ScoutBoxUploader\ScoutBoxUploader\Service\PWDManager\PWDManager.cs:line 60
+   at PhotoUploader.ViewModel.UploaderViewModel..ctor() in D:\SpringgProjects\ScoutBoxUploader\ScoutBoxUploader\ScoutBoxUploader\ViewModel\UploaderViewModel.cs:line 134
+2019-08-27 10:41:21 [1] DEBUG AppLog - UnPlugged false
+2019-08-27 10:41:21 [1] DEBUG AppLog - Error : System.NullReferenceException: Object reference not set to an instance of an object.
+   at PhotoUploader.Service.PWDManager.Dispose() in D:\SpringgProjects\PhotoUploader\PhotoUploader\Service\PWDManager\PWDManager.cs:line 60
+   at PhotoUploader.ViewModel.UploaderViewModel..ctor() in D:\SpringgProjects\PhotoUploader\PhotoUploader\ViewModel\UploaderViewModel.cs:line 134
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PhotoUploader.Service.PWDManager.Dispose() in D:\SpringgProjects\PhotoUploader\PhotoUploader\Service\PWDManager\PWDManager.cs:line 60
+   at PhotoUploader.ViewModel.UploaderViewModel..ctor() in D:\SpringgProjects\PhotoUploader\PhotoUploader\ViewModel\UploaderViewModel.cs:line 134
+2019-08-27 10:43:34 [1] DEBUG AppLog - UnPlugged false
+2019-08-27 10:43:34 [1] DEBUG AppLog - Error : System.NullReferenceException: Object reference not set to an instance of an object.
+   at PhotoUploader.Service.PWDManager.Dispose() in D:\SpringgProjects\PhotoUploader\PhotoUploader\Service\PWDManager\PWDManager.cs:line 60
+   at PhotoUploader.ViewModel.UploaderViewModel..ctor() in D:\SpringgProjects\PhotoUploader\PhotoUploader\ViewModel\UploaderViewModel.cs:line 134
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PhotoUploader.Service.PWDManager.Dispose() in D:\SpringgProjects\PhotoUploader\PhotoUploader\Service\PWDManager\PWDManager.cs:line 60
+   at PhotoUploader.ViewModel.UploaderViewModel..ctor() in D:\SpringgProjects\PhotoUploader\PhotoUploader\ViewModel\UploaderViewModel.cs:line 134

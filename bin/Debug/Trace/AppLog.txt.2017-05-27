@@ -1,0 +1,7 @@
+2017-05-27 10:19:57 [7] DEBUG AppLog - UnPlugged false
+2017-05-27 10:19:57 [7] DEBUG AppLog - Error : System.NullReferenceException: Object reference not set to an instance of an object.
+   at ScoutBoxUploader.Service.PWDManager.Dispose() in C:\TFS\ScoutBoxUploader\ScoutBoxUploader\ScoutBoxUploader\Service\PWDManager\PWDManager.cs:line 60
+   at ScoutBoxUploader.ViewModel.UploaderViewModel..ctor() in C:\TFS\ScoutBoxUploader\ScoutBoxUploader\ScoutBoxUploader\ViewModel\UploaderViewModel.cs:line 134
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ScoutBoxUploader.Service.PWDManager.Dispose() in C:\TFS\ScoutBoxUploader\ScoutBoxUploader\ScoutBoxUploader\Service\PWDManager\PWDManager.cs:line 60
+   at ScoutBoxUploader.ViewModel.UploaderViewModel..ctor() in C:\TFS\ScoutBoxUploader\ScoutBoxUploader\ScoutBoxUploader\ViewModel\UploaderViewModel.cs:line 134

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="main_footer_version" xml:space="preserve">
+    <value>Versie</value>
+  </data>
+  <data name="main_hdr_connected" xml:space="preserve">
+    <value>Connectie met</value>
+  </data>
+  <data name="main_hdr_disconnected" xml:space="preserve">
+    <value>Geen connectie</value>
+  </data>
+  <data name="main_hdr_ScoutboxApplication" xml:space="preserve">
+    <value>Scoutbox foto Uploader applicatie</value>
+  </data>
+  <data name="main_img_deleting" xml:space="preserve">
+    <value>Deleten foto's</value>
+  </data>
+  <data name="main_img_Fetching" xml:space="preserve">
+    <value>Ophalen foto's</value>
+  </data>
+  <data name="main_img_uploading" xml:space="preserve">
+    <value>Uploaden foto's</value>
+  </data>
+  <data name="main_msg_AllUploadSuccess" xml:space="preserve">
+    <value>Alle foto's zijn succesvol geupload</value>
+  </data>
+  <data name="main_msg_ConnectionEstablished" xml:space="preserve">
+    <value>Connectie met internet is vastgesteld</value>
+  </data>
+  <data name="main_msg_connectionlost" xml:space="preserve">
+    <value>Internet verbinding verbroken</value>
+  </data>
+  <data name="main_msg_imagenoexist" xml:space="preserve">
+    <value>Map C:\\ScoutboxImages bestaat niet, foto's kunnen niet worden verwijdered</value>
+  </data>
+  <data name="main_msg_noImage" xml:space="preserve">
+    <value>Er zijn geen foto's gevonden op de camera</value>
+  </data>
+  <data name="main_msg_plugandunplug" xml:space="preserve">
+    <value>Sluit de Scoutbox aan met de USB kabel om het uploaden te starten</value>
+  </data>
+  <data name="main_msg_ScoutboxConnected" xml:space="preserve">
+    <value>Er is connectie met de Scoutbox</value>
+  </data>
+  <data name="main_msg_ScoutboxNotConnected" xml:space="preserve">
+    <value>Er is geen connectie met de Scoutbox</value>
+  </data>
+  <data name="main_text_help" xml:space="preserve">
+    <value>Het eerste waarop gelet moet worden is de status ‘Connectie met’ en ‘Geen connectie’. Door de verandering van de status in de gaten te houden, kan de huidige situatie van het proces begrepen worden.
+
+Er zijn 3 stappen in deze applicatie: 
+- Het ophalen van de foto’s van de camera
+- Het uploaden van de foto’s naar de FTP server
+- Het verwijderen van de foto’s van de camera
+
+Als er een ander apparaat verbonden is met de computer, kan de Scoutbox uploader applicatie mogelijk niet werken. Zorg ervoor dat de Scoutbox het enige apparaat is dat met de computer verbonden is tijdens het uploaden van foto’s. De camera moet ingeplugd zijn voor de applicatie om foto’s op te halen. Totdat dit gebeurd, zal het icoon van ‘Ophalen foto’s’ “Wachten” weergeven. Als de camera uit staat of niet ingeplugd is, zal de ophalen functionaliteit niet werken, totdat de camera weer is aangesloten. Dan zal het “Wachten” icoon worden weergegeven. Nadat alle foto’s zijn opgehaald, zal het gerelateerde icoon veranderen in een “Vink” en het proces is succesvol afgerond.
+Nadat het ophalen is afgerond, zal de applicatie het upload proces starten. Totdat dit gebeurd, zal het “Wachten” icoon zichtbaar zijn. Tijdens dit proces is het belangrijk dat er een goede internet connectie is. Het is niet nodig om tijdens dit proces de camera aangesloten te hebben op de computer, de foto’s staan al in de juiste map op de computer. Als het icoon veranderd in een “Vink” betekend dit dat het uploaden van de foto’s naar de FTP server succesvol is afgerond.Voor het verwijderen van de foto’s moet de camera wel weer aangesloten zijn aan de computer. Nadat alle foto’s zijn verwijderd, zal net als bij de voorgaande processen, het icoon veranderen in een “Vink”. Totdat het verwijder proces wordt aangeroepen, is het icoon “Wachten” zichtbaar. Als er een foto is die voor wat voor reden niet verwijderd kan worden, zal er een bericht weergegeven worden.
+Als er een andere Scoutbox aangesloten is, zal de applicatie stoppen met werken. De applicatie moet worden herstart om verder te kunnen gaan.Wanneer elk van de processen actief is, zal het aantal van verwerkte elementen en het totaal aantal elementen weergegeven worden in het “Bezig” icoon. Wanneer alle processen succesvol zijn afgerond, zal er een bericht komen. “Alle foto’s zijn succesvol geupload.”</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Resources" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources.resx;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Resources_Designer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources.designer.cs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="main_lbl_help" xml:space="preserve">
+    <value>Hulp</value>
+  </data>
+</root>

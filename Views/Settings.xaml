@@ -1,0 +1,28 @@
+﻿<Window x:Class="PhotoUploader.Views.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:viewmodel="clr-namespace:PhotoUploader.ViewModel" 
+        Title="Settings" Height="300" Width="300">
+
+    <Window.DataContext>
+        <viewmodel:SettingsViewmodel />
+    </Window.DataContext>
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <ComboBox Grid.Row="0" Width="100" Height="25" HorizontalAlignment="Left" VerticalAlignment="Center"
+                    ItemsSource="{Binding LanguageList}"
+                        SelectedItem="{Binding SelectedLanguage, Mode=TwoWay}"
+                        DisplayMemberPath="Name"
+                        SelectedValuePath="LangID"
+                        IsEnabled="{Binding Path=IsEnabledProductSelection}" Margin="10,4,4,4">
+
+        </ComboBox>
+        <Button Width="100" Height="28" Grid.Row="0" Name="Submit" Content="Submit" IsEnabled="{Binding IsChanged,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Right" Margin="4,4,10,4" Command="{Binding ChangeLanguageCommand}"></Button>
+        <Button Width="100" Height="28" Grid.Row="1" Name="Continue" Content="Continue" IsEnabled="{Binding IsContinue,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Margin="4,4,4,4" Command="{Binding ContinueCommand}"></Button>
+    </Grid>
+</Window>

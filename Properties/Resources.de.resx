@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Resources" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources.resx;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Resources_Designer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources.designer.cs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="main_footer_version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="main_hdr_connected" xml:space="preserve">
+    <value>Verbunden mit der</value>
+  </data>
+  <data name="main_hdr_disconnected" xml:space="preserve">
+    <value>getrennte Verbindung</value>
+  </data>
+  <data name="main_hdr_ScoutboxApplication" xml:space="preserve">
+    <value>Scoutbox Bilder Uploader Application</value>
+  </data>
+  <data name="main_img_deleting" xml:space="preserve">
+    <value>LÖschen von Bildern</value>
+  </data>
+  <data name="main_img_Fetching" xml:space="preserve">
+    <value>Abrufen der Bilder</value>
+  </data>
+  <data name="main_img_uploading" xml:space="preserve">
+    <value>Hochladen von Bildern</value>
+  </data>
+  <data name="main_msg_AllUploadSuccess" xml:space="preserve">
+    <value>Alle Bilder sind erfolgreich hochgeladen</value>
+  </data>
+  <data name="main_msg_ConnectionEstablished" xml:space="preserve">
+    <value>Internetverbindung ist hergestellt</value>
+  </data>
+  <data name="main_msg_connectionlost" xml:space="preserve">
+    <value>Internetverbindung ist unterbrochen</value>
+  </data>
+  <data name="main_msg_imagenoexist" xml:space="preserve">
+    <value>Bild(er) in C:\\ScoutboxBilder Ordner existieren nicht auf der Kamera und koennen nicht geloescht werden</value>
+  </data>
+  <data name="main_msg_noImage" xml:space="preserve">
+    <value>Keine Bilder wurden auf der Kamera gefunden</value>
+  </data>
+  <data name="main_msg_plugandunplug" xml:space="preserve">
+    <value>Anschalten und Ausschalten der Kamera um zu starten</value>
+  </data>
+  <data name="main_msg_ScoutboxConnected" xml:space="preserve">
+    <value>Scoutbox ist verbunden</value>
+  </data>
+  <data name="main_msg_ScoutboxNotConnected" xml:space="preserve">
+    <value>Scoutbox ist nicht verbunden</value>
+  </data>
+  <data name="main_text_help" xml:space="preserve">
+    <value>Bitte beachten Sie den Status, ‘verbunden’ und ‘getrennte Verbindung’. Folgen Sie den Aenderungen zwischen diesen beiden Status um den Prozess zu verstehen.
+
+ 
+Es gibt 3 Schritte in der Anwendung: 
+
+- Abrufen der Bilder von der Kamera 
+
+- Hochladen der abgerufenen Bilder auf den FTP Server 
+
+- Loeschen der Bilder von der Kamera 
+
+Hinweis: falls ein anderes Geraet mit ihrem Computer verbunden ist, koennte dies zu moeglichen Schwierigkeiten mit der Scoutbox Uploader Anwendung fuehren. Gehen Sie sicher, dass die Scoutbox das einzige Geraet ist welches mit Ihrem Computer verbunden ist. 
+
+
+Die Kamera muss angeschlossen sein um die Bilder mit der Anwendung abzurufen. Bis die Kamera angeschlossen ist, ist der Hinweis ‘warten’ abgebildet. Falls die Kamera ausgeschaltet ist oder nicht angeschlossen ist koennen keine Bilder abgerufen werden, bis die Kamera wieder angeschlossen ist. In diesem Fall wird ebenfalls der Hinweis ‘warten’ abgebildet. 
+
+Nachdem alle Bilder abgerufen wurden erscheint der Hinweis ‘tick’ und der Vorgang ist erfolgreich abgeschlossen. 
+
+Nachdem die Bilder abgerufen wurden, werden die Bilder in der Anwendung hochgeladen. Zu diesem Zeitpunkt wird der Hinweis ‘warten’ abgebildet. Fuer diesen Prozess ist es wichtig eine funktionierende Internetverbindung zu gewaehrleisten. Fuer diesen Vorgang muss die Scoutbox nicht angeschlossen sein wenn die Bilder bereits in einem Ordner gespeichert sind. Wenn der Vorgang erfolgreich abgeschlossen ist und alle Bilder hochgeladen wurden, wird der Hinweis ‘tick’ abegbildet. Die Kamera muss an den Computer angeschlossen um Bilder zu loeschen. Wenn alle Bilder erfolgreich geloescht wurden erscheint hier ebenfalls der Hinweis ‘tick’. Solange der Loeschvorgang aktiv ist erscheint der Hinweis ‘warten’. Falls ein oder mehrere Bilder nicht geloescht werden koennen wird ein dementsprechender Warnhinweis erscheinen. 
+ Sollte eine andere Scoutbox zum gleichen Zeitpunkt angeschlossen sein wird die Anwendung gestoppt. In diesem Fall muss die Anwendung erneut gestartet werden. Wenn die Anwendung aktiv ist wird die Anzahl an aktiven Prozessen in dem Hinweis ‘beschaeftigt’ angezeigt. Wenn alle Prozesse erfolgreich abgeschlossen wurden erscheint die Nachricht ‘Alle Bilder wurden erfolgreich hochgeladen’.
+</value>
+  </data>
+  <data name="main_lbl_help" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+</root>
